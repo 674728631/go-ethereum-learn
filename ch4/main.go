@@ -19,6 +19,7 @@ func main() {
 	//}
 
 	// 私钥的 Hex 字符串，HexToECDSA 方法恢复私钥
+	// bd408c77966a926bf803539341de67d0bc9220709d666a14b1406837d055bb9f
 	privateKey, err := crypto.HexToECDSA("bd408c77966a926bf803539341de67d0bc9220709d666a14b1406837d055bb9f")
 	if err != nil {
 		log.Fatal(err)
